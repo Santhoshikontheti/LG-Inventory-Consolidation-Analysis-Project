@@ -31,3 +31,14 @@ We received 3 Excel files from 3 different LG customers, each with varying colum
 
 ## 📁 Folder Structure
 
+📦 LG-Inventory-Analysis
+┣ 📂 exports_YYYYMMDD_HHMMSS
+┃ ┣ 📄 Inventory_By_EAN.xlsx
+┃ ┣ 📄 Inventory_By_EAN_Store.xlsx
+┃ ┣ 📄 missing_model_or_ean_YYYYMMDD.xlsx
+┃ ┣ 📄 top_10_models_chart.png
+┃ ┣ 📄 inventory_by_customer.png
+┃ ┗ 📄 log_YYYYMMDD.txt
+┣ 📄 LGProject.ipynb
+┣ 📄 requirements.txt
+┗ 📄 README.md
