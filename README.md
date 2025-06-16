@@ -33,6 +33,13 @@ We received 3 Excel files from 3 different LG customers, each with varying colum
 
 📦 LG-Inventory-Analysis
 
+
+- `exports_YYYYMMDD_HHMMSS/`: Timestamped folder containing generated reports, charts, and logs.
+- `LGProject.ipynb`: Main analysis notebook.
+- `requirements.txt`: Python dependencies required for the project.
+- `README.md`: Project overview and usage instructions.
+
+
 ┣ 📂 exports_YYYYMMDD_HHMMSS
 ┃ ┣ 📄 Inventory_By_EAN.xlsx
 ┃ ┣ 📄 Inventory_By_EAN_Store.xlsx
