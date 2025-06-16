@@ -33,20 +33,15 @@ We received 3 Excel files from 3 different LG customers, each with varying colum
 
 📦 LG-Inventory-Analysis
 
+LG-Inventory-Analysis/
+├── exports_YYYYMMDD_HHMMSS/ # Auto-generated folder with timestamped export files
+│ ├── Inventory_By_EAN.xlsx # Inventory summary grouped by EAN code
+│ ├── Inventory_By_EAN_Store.xlsx # Inventory grouped by EAN and store
+│ ├── missing_model_or_ean_YYYYMMDD.xlsx # Log of records with missing model or EAN info
+│ ├── top_10_models_chart.png # Bar chart of top 10 models by inventory count
+│ ├── inventory_by_customer.png # Visual summary of inventory distributed across customers
+│ └── log_YYYYMMDD.txt # Timestamped log file of the export run
+├── LGProject.ipynb # Jupyter notebook containing data processing and analysis
+├── requirements.txt # List of Python dependencies to run the project
+└── README.md # Project description, structure, and usage instructions
 
-- `exports_YYYYMMDD_HHMMSS/`: Timestamped folder containing generated reports, charts, and logs.
-- `LGProject.ipynb`: Main analysis notebook.
-- `requirements.txt`: Python dependencies required for the project.
-- `README.md`: Project overview and usage instructions.
-
-
-┣ 📂 exports_YYYYMMDD_HHMMSS
-┃ ┣ 📄 Inventory_By_EAN.xlsx
-┃ ┣ 📄 Inventory_By_EAN_Store.xlsx
-┃ ┣ 📄 missing_model_or_ean_YYYYMMDD.xlsx
-┃ ┣ 📄 top_10_models_chart.png
-┃ ┣ 📄 inventory_by_customer.png
-┃ ┗ 📄 log_YYYYMMDD.txt
-┣ 📄 LGProject.ipynb
-┣ 📄 requirements.txt
-┗ 📄 README.md
