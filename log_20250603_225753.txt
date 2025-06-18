@@ -1,0 +1,4 @@
+Log: Inventory Merge and Cleaning Process
+Missing rows exported: exports_20250603_225753\missing_model_or_ean_20250603_225753.xlsx
+Cleaned inventory file: exports_20250603_225753\cleaned_inventory_20250603_225753.xlsx
+Summary by model file: exports_20250603_225753\summary_by_model_20250603_225753.xlsx
